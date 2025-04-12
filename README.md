@@ -17,7 +17,7 @@ conda activate <env-name>
 ```bash
 pip install -r requirements.txt
 ```
-### Model Setup
+## Model Setup
 The pipeline is adapted and finetuned on the original Segment Anything Model and MobileSAM. Choose a model and a tiny variant to train. Download model checkpoints from the @[SAM](https://github.com/facebookresearch) for SAM checkpoints and @[MobileSAM](https://github.com/ChaoningZhang/MobileSAM) for Mobile SAM checkpoints.
 Modify MODEL_CHECKPOINT_PATH in utils
 
