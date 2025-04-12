@@ -46,7 +46,8 @@ python predict.py
 
 ## Acknowledgments
 - [LoRA Paper](https://arxiv.org/abs/2106.09685) — Low-Rank Adaptation technique for efficient fine-tuning
-- [FinetuneSAM](https://github.com/mazurowski-lab/finetune-SAM) - Different Finetuning techniques to finetune SAM on custom medical dataset
+- [FinetuneSAM](https://github.com/mazurowski-lab/finetune-SAM) - Different Finetuning techniques to finetune SAM on a custom medical dataset
+
 Thanks to the open-source community!
 
 If you have any questions or suggestions, feel free to reach out!
