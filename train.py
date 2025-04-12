@@ -12,6 +12,7 @@ from dataset.loader import NucleiDataset, clean_and_check_data
 from model.lora_adapter import lora_adapter
 from model.metrics import dice_metric, aji_fast_metric, pq_fast_metric
 from mobile_sam import sam_model_registry
+from segment_anything import SamPredictor, sam_model_registry
 import config
 from utils.helpers import create_folder
 from utils.config import save_dir
