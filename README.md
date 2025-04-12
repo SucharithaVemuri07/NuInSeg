@@ -11,12 +11,11 @@ The model built and implemented on NVIDIA A100 GPU. The below steps are followed
 ### Create Environment
 ```bash
 conda create -n <env-name> python=3.11
-```
-### Activate environment
-```bash
 conda activate <env-name>
 ```
 ### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+### Model Training
+The pipeline is adapted and finetuned on the original Segment Anything Model and MobileSAM. Choose a model and a tiny variant to train. Download model checkpoints from the @[SAM](https://github.com/facebookresearch) for SAM checkpoints and @[MobileSAM](https://github.com/ChaoningZhang/MobileSAM)
